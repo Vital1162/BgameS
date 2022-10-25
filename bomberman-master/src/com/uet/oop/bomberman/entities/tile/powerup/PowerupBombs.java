@@ -1,9 +1,9 @@
 package com.uet.oop.bomberman.entities.tile.powerup;
 
-import com.uet.oop.bomberman.Game.Game;
+import com.uet.oop.bomberman.Funcion.Game;
 import com.uet.oop.bomberman.entities.Entity;
-import com.uet.oop.bomberman.entities.Player;
-import com.uet.oop.bomberman.Game.graphics.Sprite;
+import com.uet.oop.bomberman.entities.Bomber;
+import com.uet.oop.bomberman.graphics.Sprite;
 
 public class PowerupBombs extends Powerup {
 
@@ -14,8 +14,8 @@ public class PowerupBombs extends Powerup {
 	@Override
 	public boolean collide(Entity e) {
 		
-		if(e instanceof Player) {
-			((Player) e).addPowerup(this);
+		if(e instanceof Bomber) {
+			((Bomber) e).addPowerup(this);
 			remove();
 			return true;
 		}

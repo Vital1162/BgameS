@@ -1,7 +1,7 @@
 package com.uet.oop.bomberman.entities;
 
 import com.uet.oop.bomberman.entities.tile.destroyable.DestroyableTile;
-import com.uet.oop.bomberman.Game.graphics.Screen;
+import com.uet.oop.bomberman.graphics.Screen;
 
 import java.util.LinkedList;
 

@@ -1,9 +1,9 @@
 package com.uet.oop.bomberman.entities.tile.powerup;
 
-import com.uet.oop.bomberman.entities.tile.Tile;
-import com.uet.oop.bomberman.Game.graphics.Sprite;
+import com.uet.oop.bomberman.entities.tile.stillObjects;
+import com.uet.oop.bomberman.graphics.Sprite;
 
-public abstract class Powerup extends Tile {
+public abstract class Powerup extends stillObjects {
 
 	protected int _duration = -1; // -1 is infinite, duration in lifes
 	protected boolean _active = false;

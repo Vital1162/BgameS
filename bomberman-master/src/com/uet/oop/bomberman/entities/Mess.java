@@ -2,7 +2,7 @@ package com.uet.oop.bomberman.entities;
 
 import java.awt.Color;
 
-import com.uet.oop.bomberman.Game.graphics.Screen;
+import com.uet.oop.bomberman.graphics.Screen;
 
 public class Mess extends Entity {
 

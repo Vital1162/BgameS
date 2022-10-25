@@ -1,17 +1,17 @@
 package com.uet.oop.bomberman.entities.tile.destroyable;
 
 import com.uet.oop.bomberman.entities.Entity;
-import com.uet.oop.bomberman.entities.bomb.DirectionalExplosion;
-import com.uet.oop.bomberman.entities.tile.Tile;
-import com.uet.oop.bomberman.Game.graphics.Sprite;
+import com.uet.oop.bomberman.entities.DirectionalExplosion;
+import com.uet.oop.bomberman.entities.tile.stillObjects;
+import com.uet.oop.bomberman.graphics.Sprite;
 
-public class DestroyableTile extends Tile {
+public class DestroyableTile extends stillObjects {
 
 	private final int MAX_ANIMATE = 7500; //save the animation status and dont let this get too big
-	private int _animate = 0;
-	protected boolean _destroyed = false;
-	protected int _timeToDisapear = 20;
-	protected Sprite _belowSprite = Sprite.grass; //default
+	private int animated = 0;
+	protected boolean destroy = false;
+	protected int TimeDisapear = 20;
+	protected Sprite belowSprite = Sprite.grass; //default
 	
 	public DestroyableTile(int x, int y, Sprite sprite) {
 		super(x, y, sprite);
@@ -19,21 +19,21 @@ public class DestroyableTile extends Tile {
 	
 	@Override
 	public void update() {
-		if(_destroyed) {
-			if(_animate < MAX_ANIMATE) _animate++; else _animate = 0; //reset animation
-			if(_timeToDisapear > 0) 
-				_timeToDisapear--;
+		if(destroy == true) {
+			if(animated < MAX_ANIMATE) animated++; else animated = 0; //reset animation
+			if(TimeDisapear > 0)
+				TimeDisapear--;
 			else
 				remove();
 		}
 	}
 
 	public boolean isDestroyed() {
-		return _destroyed;
+		return destroy;
 	}
 	
 	public void destroy() {
-		_destroyed = true;
+		destroy = true;
 	}
 	
 	@Override
@@ -46,11 +46,11 @@ public class DestroyableTile extends Tile {
 	}
 	
 	public void addBelowSprite(Sprite sprite) {
-		_belowSprite = sprite;
+		belowSprite = sprite;
 	}
-	
+
 	protected Sprite movingSprite(Sprite normal, Sprite x1, Sprite x2) {
-		int calc = _animate % 30;
+		int calc = animated % 30;
 		
 		if(calc < 10) {
 			return normal;
