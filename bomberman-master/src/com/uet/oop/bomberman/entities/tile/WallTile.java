@@ -1,7 +1,7 @@
 package com.uet.oop.bomberman.entities.tile;
 
 
-import com.uet.oop.bomberman.graphics.Sprite;
+import com.uet.oop.bomberman.Game.graphics.Sprite;
 
 public class WallTile extends Tile {
 

@@ -3,10 +3,10 @@ package com.uet.oop.bomberman.entities.tile.destroyable;
 
 import com.uet.oop.bomberman.entities.Entity;
 import com.uet.oop.bomberman.entities.bomb.DirectionalExplosion;
-import com.uet.oop.bomberman.entities.mob.enemy.Kondoria;
-import com.uet.oop.bomberman.graphics.Screen;
-import com.uet.oop.bomberman.graphics.Sprite;
-import com.uet.oop.bomberman.level.Coordinates;
+import com.uet.oop.bomberman.enemy.Kondoria;
+import com.uet.oop.bomberman.Game.graphics.Screen;
+import com.uet.oop.bomberman.Game.graphics.Sprite;
+import com.uet.oop.bomberman.Game.Coordinates;
 
 public class BrickTile extends DestroyableTile {
 	

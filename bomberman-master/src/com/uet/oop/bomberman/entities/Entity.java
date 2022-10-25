@@ -1,9 +1,9 @@
 package com.uet.oop.bomberman.entities;
 
-import com.uet.oop.bomberman.graphics.IRender;
-import com.uet.oop.bomberman.graphics.Screen;
-import com.uet.oop.bomberman.graphics.Sprite;
-import com.uet.oop.bomberman.level.Coordinates;
+import com.uet.oop.bomberman.Game.graphics.IRender;
+import com.uet.oop.bomberman.Game.graphics.Screen;
+import com.uet.oop.bomberman.Game.graphics.Sprite;
+import com.uet.oop.bomberman.Game.Coordinates;
 
 public abstract class Entity implements IRender {
 

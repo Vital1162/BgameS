@@ -1,19 +1,19 @@
 package com.uet.oop.bomberman.entities.bomb;
 
-import com.uet.oop.bomberman.Board;
-import com.uet.oop.bomberman.Game;
-import com.uet.oop.bomberman.entities.AnimatedEntitiy;
+import com.uet.oop.bomberman.Game.Board;
+import com.uet.oop.bomberman.Game.Game;
+import com.uet.oop.bomberman.Animated;
 import com.uet.oop.bomberman.entities.Entity;
-import com.uet.oop.bomberman.entities.mob.Mob;
-import com.uet.oop.bomberman.entities.mob.Player;
-import com.uet.oop.bomberman.graphics.Screen;
-import com.uet.oop.bomberman.graphics.Sprite;
-import com.uet.oop.bomberman.gui.menu.SoundPlayer;
-import com.uet.oop.bomberman.level.Coordinates;
+import com.uet.oop.bomberman.entities.Mob;
+import com.uet.oop.bomberman.entities.Player;
+import com.uet.oop.bomberman.Game.graphics.Screen;
+import com.uet.oop.bomberman.Game.graphics.Sprite;
+import com.uet.oop.bomberman.Game.gui.menu.SoundPlayer;
+import com.uet.oop.bomberman.Game.Coordinates;
 
 import java.io.File;
 
-public class Bomb extends AnimatedEntitiy {
+public class Bomb extends Animated {
 
 	//options
 	protected double _timeToExplode = 120; //2 seconds

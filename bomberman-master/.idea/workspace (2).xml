@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Bomberman_NEW:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef6c9a8a-757c-4581-88e1-f881978c8de0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/artifacts/Bomberman_NEW_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_achievement_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_ai_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_animation_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_core_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_cutscene_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_effects_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_entity_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_events_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_input_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_io_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_localization_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_media_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_minigames_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_net_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_notification_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_profiles_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_scene_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_time_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_fxgl_ui_11_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_github_almasb_sslogger_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_gluonhq_attach_storage_4_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__com_gluonhq_attach_util_4_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_41.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_modular_1_3_41.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_openjfx_javafx_base_17_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_openjfx_javafx_controls_17_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_openjfx_javafx_graphics_17_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_openjfx_javafx_media_13_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_openjfx_javafx_media_win_13_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_openjfx_javafx_swing_13_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_openjfx_javafx_swing_win_13_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.pmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/Bomberman.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/Bomberman_NEW.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/Icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/classes/artifacts/Bomberman_NEW_jar/Bomberman_NEW - Shortcut.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/classes/artifacts/Bomberman_NEW_jar/Bomberman_NEW.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/reports/cpd-report.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/res/levels/Level1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/res/levels/Level2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/res/textures/classic.pdn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/res/textures/classic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/Bomberman.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/AnimatedEntitiy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/LayeredEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/bomb/Bomb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/bomb/DirectionalExplosion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/bomb/Explosion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/mob/Mob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/mob/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/mob/enemy/Balloom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/mob/enemy/Doll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/mob/enemy/Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/mob/enemy/Kondoria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/mob/enemy/Minvo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/mob/enemy/Oneal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/mob/enemy/ai/AI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/mob/enemy/ai/AILow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/mob/enemy/ai/AIMedium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/tile/GrassTile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/tile/PortalTile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/tile/Tile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/tile/WallTile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/tile/destroyable/BrickTile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/tile/destroyable/DestroyableTile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/tile/powerup/Powerup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/tile/powerup/PowerupBombs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/tile/powerup/PowerupFlames.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/entities/tile/powerup/PowerupSpeed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/exceptions/BombermanException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/exceptions/LoadLevelException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/graphics/IRender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/graphics/Screen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/graphics/Sprite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/graphics/SpriteSheet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/gui/Frame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/gui/GamePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/gui/InfoDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/gui/InfoPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/gui/menu/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/gui/menu/Help.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/gui/menu/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/gui/menu/Options.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/gui/menu/SoundPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/input/Keyboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/level/Coordinates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/level/FileLevel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/level/ILevel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/src/com/uet/oop/bomberman/level/Level.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/Bomberman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/AnimatedEntitiy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/Entity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/LayeredEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/bomb/Bomb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/bomb/DirectionalExplosion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/bomb/Explosion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/mob/Mob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/mob/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/mob/enemy/Balloom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/mob/enemy/Doll.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/mob/enemy/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/mob/enemy/Kondoria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/mob/enemy/Minvo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/mob/enemy/Oneal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/mob/enemy/ai/AI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/mob/enemy/ai/AILow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/mob/enemy/ai/AIMedium.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/tile/GrassTile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/tile/PortalTile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/tile/Tile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/tile/WallTile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/tile/destroyable/BrickTile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/tile/destroyable/DestroyableTile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/tile/powerup/Powerup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/tile/powerup/PowerupBombs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/tile/powerup/PowerupFlames.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/entities/tile/powerup/PowerupSpeed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/exceptions/BombermanException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/exceptions/LoadLevelException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/graphics/IRender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/graphics/Screen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/graphics/Sprite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/graphics/SpriteSheet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/gui/Frame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/gui/GamePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/gui/InfoDialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/gui/InfoDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/gui/InfoPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/gui/menu/Game$MenuActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/gui/menu/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/gui/menu/Help$MenuActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/gui/menu/Help.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/gui/menu/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/gui/menu/Options$MenuActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/gui/menu/Options.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/gui/menu/SoundPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/input/Keyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/level/Coordinates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/level/FileLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/level/ILevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bomberman-master/target/classes/com/uet/oop/bomberman/level/Level.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="886" />
+  </component>
+  <component name="ProjectId" id="2GVGYAcHYpgMDAKFqy9bkhH4jJu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bomberman_NEW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bomberman_NEW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bomberman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bomberman_NEW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bomberman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bomberman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "E:/BgameS/bomberman-master",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.carlosflorencio.bomberman.gui.menu" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration name="Bomberman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.uet.oop.bomberman.Bomberman" />
+      <module name="Bomberman_NEW" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\ADMIN\Downloads\openjfx-19_windows-x64_bin-sdk\javafx-sdk-19\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.uet.oop.bomberman.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Bomberman" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1666466385429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666466385429</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/uet/oop/bomberman/Game.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/uet/oop/bomberman/gui/GamePanel.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/carlosflorencio/bomberman/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/carlosflorencio/bomberman/Bomberman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

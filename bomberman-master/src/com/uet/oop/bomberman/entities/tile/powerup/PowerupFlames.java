@@ -1,9 +1,9 @@
 package com.uet.oop.bomberman.entities.tile.powerup;
 
-import com.uet.oop.bomberman.Game;
+import com.uet.oop.bomberman.Game.Game;
 import com.uet.oop.bomberman.entities.Entity;
-import com.uet.oop.bomberman.entities.mob.Player;
-import com.uet.oop.bomberman.graphics.Sprite;
+import com.uet.oop.bomberman.entities.Player;
+import com.uet.oop.bomberman.Game.graphics.Sprite;
 
 public class PowerupFlames extends Powerup {
 

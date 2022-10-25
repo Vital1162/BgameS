@@ -1,10 +1,10 @@
 package com.uet.oop.bomberman.entities.bomb;
 
-import com.uet.oop.bomberman.Board;
+import com.uet.oop.bomberman.Game.Board;
 import com.uet.oop.bomberman.entities.Entity;
-import com.uet.oop.bomberman.entities.mob.Mob;
-import com.uet.oop.bomberman.graphics.Screen;
-import com.uet.oop.bomberman.graphics.Sprite;
+import com.uet.oop.bomberman.entities.Mob;
+import com.uet.oop.bomberman.Game.graphics.Screen;
+import com.uet.oop.bomberman.Game.graphics.Sprite;
 
 
 public class Explosion extends Entity {

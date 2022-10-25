@@ -1,7 +1,7 @@
 package com.uet.oop.bomberman.entities.tile.powerup;
 
 import com.uet.oop.bomberman.entities.tile.Tile;
-import com.uet.oop.bomberman.graphics.Sprite;
+import com.uet.oop.bomberman.Game.graphics.Sprite;
 
 public abstract class Powerup extends Tile {
 

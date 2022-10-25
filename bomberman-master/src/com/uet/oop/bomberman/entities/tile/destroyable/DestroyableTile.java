@@ -3,7 +3,7 @@ package com.uet.oop.bomberman.entities.tile.destroyable;
 import com.uet.oop.bomberman.entities.Entity;
 import com.uet.oop.bomberman.entities.bomb.DirectionalExplosion;
 import com.uet.oop.bomberman.entities.tile.Tile;
-import com.uet.oop.bomberman.graphics.Sprite;
+import com.uet.oop.bomberman.Game.graphics.Sprite;
 
 public class DestroyableTile extends Tile {
 

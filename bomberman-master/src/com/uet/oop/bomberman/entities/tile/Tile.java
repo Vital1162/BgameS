@@ -1,9 +1,9 @@
 package com.uet.oop.bomberman.entities.tile;
 
 import com.uet.oop.bomberman.entities.Entity;
-import com.uet.oop.bomberman.graphics.Screen;
-import com.uet.oop.bomberman.graphics.Sprite;
-import com.uet.oop.bomberman.level.Coordinates;
+import com.uet.oop.bomberman.Game.graphics.Screen;
+import com.uet.oop.bomberman.Game.graphics.Sprite;
+import com.uet.oop.bomberman.Game.Coordinates;
 
 public abstract class Tile extends Entity {
 	

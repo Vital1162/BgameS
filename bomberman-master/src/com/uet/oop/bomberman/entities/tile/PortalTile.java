@@ -1,9 +1,9 @@
 package com.uet.oop.bomberman.entities.tile;
 
-import com.uet.oop.bomberman.Board;
+import com.uet.oop.bomberman.Game.Board;
 import com.uet.oop.bomberman.entities.Entity;
-import com.uet.oop.bomberman.entities.mob.Player;
-import com.uet.oop.bomberman.graphics.Sprite;
+import com.uet.oop.bomberman.entities.Player;
+import com.uet.oop.bomberman.Game.graphics.Sprite;
 
 public class PortalTile extends Tile {
 
