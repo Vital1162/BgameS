@@ -35,7 +35,7 @@ public class Options extends JMenu implements ChangeListener {
 		
 		addSeparator();
 		
-		add(new JLabel("Size: "));
+		/**add(new JLabel("Size: "));
 		
 		JSlider sizeRange = new JSlider(JSlider.HORIZONTAL, 2);
 		
@@ -45,7 +45,7 @@ public class Options extends JMenu implements ChangeListener {
 		sizeRange.setPaintTicks(true);
 		sizeRange.setPaintLabels(true);
 		sizeRange.addChangeListener(this);
-		add(sizeRange);
+		add(sizeRange);*/
 		
 	}
 	

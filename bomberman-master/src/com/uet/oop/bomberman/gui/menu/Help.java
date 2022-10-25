@@ -20,7 +20,7 @@ public class Help extends JMenu {
 		/*
 		 * How to play
 		 */
-		JMenuItem instructions = new JMenuItem("How to play");
+		JMenuItem instructions = new JMenuItem("Don't know how to play ?");
 		instructions.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_H, ActionEvent.CTRL_MASK));
 		instructions.addActionListener(new MenuActionListener(frame));
 		add(instructions);
@@ -42,7 +42,7 @@ public class Help extends JMenu {
 		public void actionPerformed(ActionEvent e) {
 			  
 			  if(e.getActionCommand().equals("How to play")) {
-				  new InfoDialog(_frame, "How to Play", "MOVE: W,A,S,D or ?,?, ?, ? \nCreate Bomb: SPACE or X", JOptionPane.NO_OPTION);
+				  new InfoDialog(_frame, "How to Play", "MOVE: W,A,S,D or click the arrow button \nCreate Bomb: SPACE or X", JOptionPane.NO_OPTION);
 			  }
 
 			  

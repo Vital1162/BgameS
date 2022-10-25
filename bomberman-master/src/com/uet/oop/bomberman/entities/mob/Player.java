@@ -1,11 +1,5 @@
 package com.uet.oop.bomberman.entities.mob;
 
-import java.awt.Color;
-import java.io.File;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-
 import com.uet.oop.bomberman.Board;
 import com.uet.oop.bomberman.Game;
 import com.uet.oop.bomberman.entities.Entity;
@@ -16,9 +10,15 @@ import com.uet.oop.bomberman.entities.mob.enemy.Enemy;
 import com.uet.oop.bomberman.entities.tile.powerup.Powerup;
 import com.uet.oop.bomberman.graphics.Screen;
 import com.uet.oop.bomberman.graphics.Sprite;
+import com.uet.oop.bomberman.gui.menu.SoundPlayer;
 import com.uet.oop.bomberman.input.Keyboard;
 import com.uet.oop.bomberman.level.Coordinates;
-import com.uet.oop.bomberman.gui.menu.SoundPlayer;
+
+import java.awt.*;
+import java.io.File;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public class Player extends Mob {
 	
@@ -130,7 +130,7 @@ public class Player extends Mob {
 		getugh.play();
 		_alive = false;
 		//_board.addLives(-1);
-		Message msg = new Message("Fuck", getXMessage()/2, getYMessage()/2, 2, Color.blue, 14);
+		Message msg = new Message("I'm dying", getXMessage()/2, getYMessage()/2, 2, Color.blue, 14);
 		_board.addMessage(msg);
 	}
 	

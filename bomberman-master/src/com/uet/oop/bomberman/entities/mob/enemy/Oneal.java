@@ -9,7 +9,7 @@ import com.uet.oop.bomberman.graphics.Sprite;
 public class Oneal extends Enemy {
 	
 	public Oneal(int x, int y, Board board) {
-		super(x, y, board, Sprite.oneal_dead, Game.getPlayerSpeed(), 200);
+		super(x, y, board, Sprite.oneal_dead, Game.getPlayerSpeed()/4, 200);
 		_sprite = Sprite.oneal_left1;
 		
 		_ai = new AIMedium(_board.getPlayer(), this);

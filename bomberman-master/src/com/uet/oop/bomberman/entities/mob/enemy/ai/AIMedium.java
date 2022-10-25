@@ -14,9 +14,8 @@ public class AIMedium extends AI {
 
 	@Override
 	public int calculateDirection() {
-		
-		if(_player == null)
-			return random.nextInt(4);
+		/**if(_player == null)
+			return random.nextInt(4);*/
 		
 		int vertical = random.nextInt(2);
 		

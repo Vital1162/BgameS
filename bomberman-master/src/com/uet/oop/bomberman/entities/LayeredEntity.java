@@ -1,9 +1,9 @@
 package com.uet.oop.bomberman.entities;
 
-import java.util.LinkedList;
-
 import com.uet.oop.bomberman.entities.tile.destroyable.DestroyableTile;
 import com.uet.oop.bomberman.graphics.Screen;
+
+import java.util.LinkedList;
 
 public class LayeredEntity extends Entity {
 	
@@ -16,7 +16,7 @@ public class LayeredEntity extends Entity {
 		for (int i = 0; i < entities.length; i++) {
 			_entities.add(entities[i]); 
 			
-			if(i > 1) { //Add to destroyable tiles the bellow sprite for rendering in explosion
+			if(i > 1) {
 				if(entities[i] instanceof DestroyableTile)
 					((DestroyableTile)entities[i]).addBelowSprite(entities[i-1].getSprite());
 			}

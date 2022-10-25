@@ -19,6 +19,10 @@ import com.uet.oop.bomberman.graphics.Screen;
 import com.uet.oop.bomberman.input.Keyboard;
 import com.uet.oop.bomberman.level.FileLevel;
 import com.uet.oop.bomberman.level.Level;
+import javafx.scene.control.Button;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.VBox;
+import javafx.scene.shape.Rectangle;
 
 public class Board implements IRender {
 
@@ -487,5 +491,7 @@ public class Board implements IRender {
 	public int getHeight() {
 		return _level.getHeight();
 	}
+
+
 	
 }

@@ -1,5 +1,4 @@
 package com.uet.oop.bomberman.gui.menu;
-
 import javax.swing.JMenuBar;
 
 import com.uet.oop.bomberman.gui.Frame;

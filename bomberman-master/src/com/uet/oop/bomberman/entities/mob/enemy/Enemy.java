@@ -1,7 +1,5 @@
 package com.uet.oop.bomberman.entities.mob.enemy;
 
-import java.awt.Color;
-
 import com.uet.oop.bomberman.Board;
 import com.uet.oop.bomberman.Game;
 import com.uet.oop.bomberman.entities.Entity;
@@ -14,11 +12,13 @@ import com.uet.oop.bomberman.graphics.Screen;
 import com.uet.oop.bomberman.graphics.Sprite;
 import com.uet.oop.bomberman.level.Coordinates;
 
+import java.awt.*;
+
 public abstract class Enemy extends Mob {
 
 	protected int _points;
 	
-	protected double _speed; //Speed should change on level transition
+	protected double _speed;
 	protected AI _ai;
 	
 	//necessary to correct move
@@ -57,8 +57,7 @@ public abstract class Enemy extends Mob {
 			return;
 		}
 		
-		if(_alive)
-			calculateMove();
+		if(_alive) calculateMove();
 	}
 	
 	@Override
@@ -118,10 +117,9 @@ public abstract class Enemy extends Mob {
 	@Override
 	public boolean canMove(double x, double y) {
 		
-		double xr = _x, yr = _y - 16; //subtract y to get more accurate results
+		double xr = _x, yr = _y - 16;
 		
-		//the thing is, subract 15 to 16 (sprite size), so if we add 1 tile we get the next pixel tile with this
-		//we avoid the shaking inside tiles with the help of steps
+
 		if(_direction == 0) { yr += _sprite.getSize() -1 ; xr += _sprite.getSize()/2; } 
 		if(_direction == 1) {yr += _sprite.getSize()/2; xr += 1;}
 		if(_direction == 2) { xr += _sprite.getSize()/2; yr += 1;}

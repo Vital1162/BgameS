@@ -1,18 +1,16 @@
 package com.uet.oop.bomberman;
 
-import java.awt.Canvas;
-import java.awt.Graphics;
+import com.uet.oop.bomberman.exceptions.BombermanException;
+import com.uet.oop.bomberman.graphics.Screen;
+import com.uet.oop.bomberman.gui.Frame;
+import com.uet.oop.bomberman.gui.menu.SoundPlayer;
+import com.uet.oop.bomberman.input.Keyboard;
+
+import java.awt.*;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferInt;
 import java.io.File;
-import com.uet.oop.bomberman.gui.menu.SoundPlayer;
-
-
-import com.uet.oop.bomberman.exceptions.BombermanException;
-import com.uet.oop.bomberman.graphics.Screen;
-import com.uet.oop.bomberman.gui.Frame;
-import com.uet.oop.bomberman.input.Keyboard;
 
 public class Game extends Canvas {
 	
@@ -76,10 +74,10 @@ public class Game extends Canvas {
 	}
 	
 	
-	private void renderGame() { //render will run the maximum times it can per second
-		BufferStrategy bs = getBufferStrategy(); //create a buffer to store images using canvas
-		if(bs == null) { //if canvas dont have a bufferstrategy, create it
-			createBufferStrategy(3); //triple buffer
+	private void renderGame() {
+		BufferStrategy bs = getBufferStrategy();
+		if(bs == null) {
+			createBufferStrategy(3);
 			return;
 		}
 		
@@ -100,7 +98,7 @@ public class Game extends Canvas {
 		bs.show(); //make next buffer visible
 	}
 	
-	private void renderScreen() { //TODO: merge these render methods
+	private void renderScreen() {
 		BufferStrategy bs = getBufferStrategy();
 		if(bs == null) {
 			createBufferStrategy(3);
@@ -129,8 +127,8 @@ public class Game extends Canvas {
 		long timer = System.currentTimeMillis();
 		final double ns = 1000000000.0 / 60.0; //nanosecond, 60 frames per second
 		double delta = 0;
-		int frames = 0;
-		int updates = 0;
+		//int frames = 0;
+		//int updates = 0;
 		requestFocus();
 
 		SoundPlayer getBackgroundmusicPlayer;
@@ -146,7 +144,8 @@ public class Game extends Canvas {
 			lastTime = now;
 			while(delta >= 1) {
 				update();
-				updates++;
+				update();
+				//updates++;
 				delta--;
 			}
 			
@@ -162,15 +161,15 @@ public class Game extends Canvas {
 			}
 				
 			
-			frames++;
+			//frames++;
 			if(System.currentTimeMillis() - timer > 1000) { //once per second
 				_frame.setTime(_board.subtractTime());
 				_frame.setPoints(_board.getPoints());
 //				_frame.setLives(_board.getLives());
 				timer += 1000;
-				_frame.setTitle(TITLE + " | " + updates + " rate, " + frames + " fps");
-				updates = 0;
-				frames = 0;
+				_frame.setTitle(TITLE);//+ " | " + updates + " rate, " + frames + " fps");
+				//updates = 0;
+				//frames = 0;
 				
 				if(_board.getShow() == 2)
 					--_screenDelay;

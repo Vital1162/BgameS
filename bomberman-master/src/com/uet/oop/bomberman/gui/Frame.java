@@ -7,6 +7,10 @@ import javax.swing.JPanel;
 
 import com.uet.oop.bomberman.Game;
 import com.uet.oop.bomberman.gui.menu.Menu;
+import javafx.scene.control.Button;
+import javafx.scene.layout.Pane;
+import javafx.scene.layout.VBox;
+import javafx.scene.shape.Rectangle;
 
 public class Frame extends JFrame {
 	
@@ -17,6 +21,7 @@ public class Frame extends JFrame {
 	private Game _game;
 
 	public Frame() {
+
 		setJMenuBar(new Menu(this));
 		
 		_containerpane = new JPanel(new BorderLayout());
@@ -35,8 +40,9 @@ public class Frame extends JFrame {
 		pack();
 		setLocationRelativeTo(null);
 		setVisible(true);
-		
+
 		_game.start();
+
 	}
 	
 	/*

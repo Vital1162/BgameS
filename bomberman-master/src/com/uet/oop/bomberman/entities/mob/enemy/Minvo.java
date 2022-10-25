@@ -10,7 +10,7 @@ public class Minvo extends Enemy {
 	
 	
 	public Minvo(int x, int y, Board board) {
-		super(x, y, board, Sprite.minvo_dead, Game.getPlayerSpeed(), 800);
+		super(x, y, board, Sprite.minvo_dead, Game.getPlayerSpeed()/4, 800);
 		
 		_sprite = Sprite.minvo_right1;
 		_ai = new AILow();
