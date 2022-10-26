@@ -7,11 +7,11 @@ import com.uet.oop.bomberman.graphics.Sprite;
 
 public class Portal extends stillObjects {
 
-    protected Board board;
+    protected Board jboard;
 
     public Portal(int x, int y, Board board, Sprite sprite) {
         super(x, y, sprite);
-        board = board;
+        jboard = board;
     }
 
     @Override
@@ -19,15 +19,16 @@ public class Portal extends stillObjects {
 
         if (e instanceof Bomber) {
 
-            if (board.detectNoEnemies() == false)
+            if (jboard.detectNoEnemies() == false)
                 return false;
 
-            if (e.getXTile() == getX() && e.getYTile() == getY()) {
-                if (board.detectNoEnemies())
-                    board.nextLevel();
+            else if (e.getXTile() == getX() && e.getYTile() == getY()) {
+                if (jboard.detectNoEnemies())
+                    jboard.nextLevel();
             }
 
-            return true;
+
+            else  return true;
         }
 
         return false;
