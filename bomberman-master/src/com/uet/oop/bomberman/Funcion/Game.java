@@ -22,7 +22,7 @@ public class Game extends Canvas {
 
 	
 	public static final int TILES_SIZE = 16,
-							WIDTH = TILES_SIZE * (int)(31 / 2), //minus one to ajust the window,
+							WIDTH = TILES_SIZE * (int)(31 / 2),
 							HEIGHT = 13 * TILES_SIZE;
 
 	public static int SCALE = 3;
@@ -36,7 +36,7 @@ public class Game extends Canvas {
 	
 	public static final int TIME = 200;
 	public static final int POINTS = 0;
-//	public static final int LIVES = 3;
+
 	
 	protected static int SCREENDELAY = 3;
 	
@@ -177,11 +177,7 @@ public class Game extends Canvas {
 		}
 	}
 	
-	/*
-	|--------------------------------------------------------------------------
-	| Getters & Setters
-	|--------------------------------------------------------------------------
-	 */
+
 	public static double getPlayerSpeed() {
 		return playerSpeed;
 	}
@@ -195,7 +191,7 @@ public class Game extends Canvas {
 	}
 	
 	public static void addPlayerSpeed(double i) {
-		playerSpeed += i;
+		playerSpeed +=i;
 	}
 	
 	public static void addBombRadius(int i) {

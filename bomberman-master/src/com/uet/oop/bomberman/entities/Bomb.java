@@ -43,8 +43,6 @@ public class Bomb extends Animated {
 				bombexp.play();
 				explosion();
 			}
-
-
 			else
 				updateExplosions();
 			
@@ -127,7 +125,7 @@ public class Bomb extends Animated {
 			double diffX = e.getX() - Coordinates.tileToPixel(getX());
 			double diffY = e.getY() - Coordinates.tileToPixel(getY());
 			
-			if(!(diffX >= -10 && diffX < 16 && diffY >= 1 && diffY <= 28)) { // differences to see if the player has moved out of the bomb, tested values
+			if(!(diffX >= -10 && diffX < 16 && diffY >= 1 && diffY <= 28)) {
 				_allowedToPassThru = false;
 			}
 			

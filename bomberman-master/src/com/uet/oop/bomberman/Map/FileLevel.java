@@ -85,7 +85,7 @@ public class FileLevel extends Level {
                         new Grass(x, y, Sprite.grass),
                         new Brick(x, y, Sprite.brick));
 
-                if (board.isPowerupUsed(x, y, level) == false) {
+                if (!board.isPowerupUsed(x, y, level)) {
                     layer.addBeforeTop(new PowerupSpeed(x, y, level, Sprite.powerup_speed));
                 }
 
@@ -97,7 +97,7 @@ public class FileLevel extends Level {
                         new Brick(x, y, Sprite.brick));
 
 
-                if (board.isPowerupUsed(x, y, level) == false) {
+                if (!board.isPowerupUsed(x, y, level)) {
                     layer.addBeforeTop(new PowerupFlames(x, y, level, Sprite.powerup_flames));
                 }
 
@@ -113,9 +113,6 @@ public class FileLevel extends Level {
                         new Grass(x, y, Sprite.grass),
                         new Portal(x, y, board, Sprite.portal),
                         new Brick(x, y, Sprite.brick)));
-                break;
-            case ' ':
-                board.addEntitie(pos, new Grass(x, y, Sprite.grass));
                 break;
             case 'p':
                 board.addMob(new Bomber(Coordinates.tileToPixel(x), Coordinates.tileToPixel(y) + Game.TILES_SIZE, board));

@@ -7,7 +7,7 @@ public class DirectionalExplosion extends Entity {
 
 	protected Board _board;
 	protected int _direction;
-	private int _radius;
+	private final int _radius;
 	protected int xOrigin, yOrigin;
 	protected Explosion[] _explosions;
 	
@@ -30,13 +30,13 @@ public class DirectionalExplosion extends Entity {
 		int x = (int)_x;
 		int y = (int)_y;
 		for (int i = 0; i < _explosions.length; i++) {
-			last = i == _explosions.length -1 ? true : false;
-			
+			last = i == _explosions.length - 1;
+
 			switch (_direction) {
-				case 0: y--; break;
-				case 1: x++; break;
-				case 2: y++; break;
-				case 3: x--; break;
+				case 0 -> y--;
+				case 1 -> x++;
+				case 2 -> y++;
+				case 3 -> x--;
 			}
 			_explosions[i] = new Explosion(x, y, _direction, last, _board);
 		}
@@ -56,7 +56,7 @@ public class DirectionalExplosion extends Entity {
 			
 			if(a instanceof Mob) ++radius; //explosion has to be below the mob
 			
-			if(a.collide(this) == false) //cannot pass thru
+			if(!a.collide(this)) //cannot pass thru
 				break;
 			
 			++radius;
@@ -65,9 +65,9 @@ public class DirectionalExplosion extends Entity {
 	}
 	
 	public Explosion explosionAt(int x, int y) {
-		for (int i = 0; i < _explosions.length; i++) {
-			if(_explosions[i].getX() == x && _explosions[i].getY() == y) 
-				return _explosions[i];
+		for (Explosion explosion : _explosions) {
+			if (explosion.getX() == x && explosion.getY() == y)
+				return explosion;
 		}
 		return null;
 	}
@@ -77,9 +77,9 @@ public class DirectionalExplosion extends Entity {
 	
 	@Override
 	public void render(Screen screen) {
-		
-		for (int i = 0; i < _explosions.length; i++) {
-			_explosions[i].render(screen);
+
+		for (Explosion explosion : _explosions) {
+			explosion.render(screen);
 		}
 	}
 

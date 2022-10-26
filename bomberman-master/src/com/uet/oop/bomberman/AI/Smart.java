@@ -21,14 +21,14 @@ public class Smart extends AI {
         if (ver == 1) {
             int v = RowDirection();
             if (v != -1)
-                return v;
+                return RowDirection();
             else
                 return ColDirection();
 
         } else {
             int dir = ColDirection();
             if (dir != -1)
-                return dir;
+                return ColDirection();
             else
                 return RowDirection();
         }

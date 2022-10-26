@@ -20,6 +20,7 @@ public class Bomber extends Mob {
     private List<Bomb> _bombs;
     protected Keyboard _input;
 
+    protected Game game;
     protected int _timeBetweenPutBombs = 0;
 
     public static List<Powerup> _powerups = new ArrayList<Powerup>();
@@ -59,7 +60,8 @@ public class Bomber extends Mob {
             chooseSprite();
         else
 
-            _sprite = Sprite.movingSprite(Sprite.player_dead1, Sprite.player_dead2, Sprite.player_dead3, _animate, 60);
+            _sprite = Sprite.movingSprite(Sprite.player_dead1, Sprite.player_dead2,
+                    Sprite.player_dead3, _animate, 60);
 
         screen.renderEntity((int) _x, (int) _y - _sprite.SIZE, this);
     }
@@ -69,11 +71,7 @@ public class Bomber extends Mob {
         Screen.setOffset(xScroll, 0);
     }
 
-    /*
-    |--------------------------------------------------------------------------
-    | Mob Unique
-    |--------------------------------------------------------------------------
-     */
+
     private void detectPlaceBomb() {
         if (_input.space && Game.getBombRate() > 0 && _timeBetweenPutBombs < 0) {
 
@@ -129,10 +127,6 @@ public class Bomber extends Mob {
         else {
             if (_bombs.size() == 0) {
 
-                /**if(_board.getLives() == 0)
-                 _board.endGame();
-                 else
-                 _board.restartLevel();*/
 
                 board.endGame();
             }
@@ -146,14 +140,13 @@ public class Bomber extends Mob {
      */
     @Override
     protected void calculateMove() {
-        int xa = 0, ya = 0;
-        if (_input.up) ya--;
-        if (_input.down) ya++;
-        if (_input.left) xa--;
-        if (_input.right) xa++;
-
-        if (xa != 0 || ya != 0) {
-            move(xa * Game.getPlayerSpeed() / 2, ya * Game.getPlayerSpeed() / 2);
+        double xa = 0, ya = 0;
+        if(_input.up) ya = -1;
+        if(_input.down) ya = 1;
+        if(_input.left) xa = -1;
+        if(_input.right) xa=1;
+        if(xa != 0 || ya != 0)  {
+            move(xa *game.getPlayerSpeed(), ya * game.getPlayerSpeed());
             moving = true;
         } else {
             moving = false;
@@ -254,7 +247,7 @@ public class Bomber extends Mob {
         Powerup p;
         for (int i = 0; i < _powerups.size(); i++) {
             p = _powerups.get(i);
-            if (p.isActive() == false)
+            if (!p.isActive())
                 _powerups.remove(i);
         }
     }

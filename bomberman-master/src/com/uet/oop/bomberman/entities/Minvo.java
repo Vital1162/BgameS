@@ -1,6 +1,7 @@
 package com.uet.oop.bomberman.entities;
 
 
+import com.uet.oop.bomberman.AI.ALittelBitSmartler;
 import com.uet.oop.bomberman.AI.Stupid;
 import com.uet.oop.bomberman.Funcion.Board;
 import com.uet.oop.bomberman.Funcion.Game;
@@ -13,7 +14,7 @@ public class Minvo extends Enemy {
 		super(x, y, board, Sprite.minvo_dead, Game.getPlayerSpeed()/4, 800);
 		
 		_sprite = Sprite.minvo_right1;
-		ai = new Stupid();
+		ai = new ALittelBitSmartler(board.getPlayer(), this,board);
 		dir  = ai.Direction();
 	}
 	/*

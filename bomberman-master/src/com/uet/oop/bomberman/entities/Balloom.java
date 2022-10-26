@@ -1,6 +1,7 @@
 package com.uet.oop.bomberman.entities;
 
 
+import com.uet.oop.bomberman.AI.ALittelBitSmartler;
 import com.uet.oop.bomberman.Funcion.Board;
 import com.uet.oop.bomberman.Funcion.Game;
 import com.uet.oop.bomberman.AI.Stupid;
@@ -14,7 +15,7 @@ public class Balloom extends Enemy {
 		
 		_sprite = Sprite.balloom_left1;
 		
-		ai = new Stupid();
+		ai = new ALittelBitSmartler(board.getPlayer(), this,board);
 		dir = ai.Direction();
 	}
 	
@@ -24,11 +25,13 @@ public class Balloom extends Enemy {
 		switch(dir) {
 			case 0:
 			case 1:
-					_sprite = Sprite.movingSprite(Sprite.balloom_right1, Sprite.balloom_right2, Sprite.balloom_right3, _animate, 60);
+					_sprite = Sprite.movingSprite(Sprite.balloom_right1, Sprite.balloom_right2,
+							Sprite.balloom_right3, _animate, 60);
 				break;
 			case 2:
 			case 3:
-					_sprite = Sprite.movingSprite(Sprite.balloom_left1, Sprite.balloom_left2, Sprite.balloom_left3, _animate, 60);
+					_sprite = Sprite.movingSprite(Sprite.balloom_left1, Sprite.balloom_left2,
+							Sprite.balloom_left3, _animate, 60);
 				break;
 		}
 	}
